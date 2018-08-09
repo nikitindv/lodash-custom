@@ -45,4 +45,58 @@ export {default as filter} from '../lodash-es/filter.js';
 export {default as find} from '../lodash-es/find.js';
 export {default as map} from '../lodash-es/map.js';
 export {default as forEach} from '../lodash-es/forEach.js';
-export {default as wrap } from '../lodash-es/wrapperLodash.js'
+export {default as difference } from '../lodash-es/difference.js'
+
+import wrapper from '../lodash-es/wrapperLodash.js';
+
+
+wrapper.chain = chain;
+wrapper.debounce = debounce;
+wrapper.findLastIndex = findLastIndex;
+wrapper.get = get;
+wrapper.includes = includes;
+wrapper.isUndefined = isUndefined;
+wrapper.join = join;
+wrapper.keys = keys;
+wrapper.matches = matches;
+wrapper.negate = negate;
+wrapper.omit = omit;
+wrapper.partial = partial;
+wrapper.reverse = reverse;
+wrapper.startsWith = startsWith;
+wrapper.sum = sum;
+wrapper.tail = tail;
+wrapper.toArray = toArray;
+wrapper.trim = trim;
+wrapper.capitalize = capitalize;
+wrapper.defaults = defaults;
+wrapper.intersectionBy = intersectionBy;
+wrapper.isEmpty = isEmpty;
+wrapper.isString = isString;
+wrapper.clone = clone;
+wrapper.cloneDeep = cloneDeep;
+wrapper.first = first;
+wrapper.head = head;
+wrapper.isEqual = isEqual;
+wrapper.isFunction = isFunction;
+wrapper.max = max;
+wrapper.noop = noop;
+wrapper.forOwn = forOwn;
+wrapper.isObject = isObject;
+wrapper.size = size;
+wrapper.sortBy = sortBy;
+wrapper.values = values;
+wrapper.reduce = reduce;
+wrapper.isNaN = isNaN;
+wrapper.findIndex = findIndex;
+wrapper.some = some;
+wrapper.isArray = isArray;
+wrapper.isNumber = isNumber;
+wrapper.identity = identity;
+wrapper.filter = filter;
+wrapper.find = find;
+wrapper.map = map;
+wrapper.forEach = forEach;
+wrapper.difference  = difference;
+
+export const wrap = wrapper;
