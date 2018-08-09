@@ -1,0 +1,12 @@
+{
+  "name": "lodash-custom",
+  "version": "1.0.0",
+  "main": "index.js",
+  "module": "index.js",
+  "repository": "git@github.com:nikitindv/lodash-custom.git",
+  "author": "Dmitriy Nikitin <dnikitin@aori.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash-es": "^4.17.10"
+  }
+}
