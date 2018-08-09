@@ -45,3 +45,4 @@ export {default as filter} from '../lodash-es/filter.js';
 export {default as find} from '../lodash-es/find.js';
 export {default as map} from '../lodash-es/map.js';
 export {default as forEach} from '../lodash-es/forEach.js';
+export {default as wrap } from '../lodash-es/wrapperLodash.js'
